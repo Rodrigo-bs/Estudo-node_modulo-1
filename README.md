@@ -9,7 +9,7 @@ Configuração do ambiente, instalação das dependências e conceitos básicos.
 - No arquivo tsconfig.json, temos que habilitar as seguintes configurações:
 
 ```json
-"module": "commonjs", // Pasta onde o JavaScript vai ser gerado.
+"module": "commonjs", /* Pasta onde o JavaScript vai ser gerado. */
 "rootDir": "./src", // Pasta onde o TypeScript vai está.
 "moduleResolution": "node", 
 ```
